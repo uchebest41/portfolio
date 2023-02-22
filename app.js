@@ -34,7 +34,7 @@ let currentIndex = 0;
 function displayNextImage() {
   const image = new Image();
   image.src = imageSources[currentIndex];
-  image.width = 600;
+  image.width = 300;
   //image.height= 100; // Set the image width to 100 pixels
   currentIndex = (currentIndex + 1) % imageSources.length;
   imageContainer.innerHTML = '';

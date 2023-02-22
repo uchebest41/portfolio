@@ -1,4 +1,4 @@
-/* Reset Styles */
+Reset Styles
 * {
 	box-sizing: border-box;
 	margin: 0;
@@ -12,11 +12,15 @@ body {
 	line-height: 1.5;
 	color: #333;
 	background-color: #fff;
-		background-image: url("aa.jpg");
+		/* background-image: url("aa.jpg"); */
 		background-repeat: no-repeat;
 		background-size: cover;
 	  
 }
+
+
+
+
 /* text effect */
 
 #typing-text {
