@@ -1,5 +1,5 @@
 const whatsappContactButton = document.querySelector('.whatsapp-contact');
-const phoneNumber = '1234567890'; // Replace with your phone number
+const phoneNumber = '08158878593'; // Replace with your phone number
 const messageForm = document.querySelector("#message-form");
 const messageInput = document.querySelector("#message-input");
 
