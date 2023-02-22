@@ -1,0 +1,149 @@
+/* Set box-sizing property to border-box for all elements */
+* {
+    box-sizing: border-box;
+  }
+  
+  /* Set default font-family and background-color for the entire document */
+  body {
+    font-family: Arial, sans-serif;
+    /* background-color: #f2f2f2; */
+    background-image: url("image/bbbb.jpg");
+  }
+  
+  /* Set header and main padding */
+  header, main {
+    padding: 20px;
+  }
+  
+  /* Style the navigation menu */
+ /* Style the navigation menu */
+.menu-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #333;
+    color: #fff;
+    background-image: url("image/aa.jpg");
+  }
+  
+  #menu-button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    cursor: pointer;
+  }
+
+
+
+  /*  */
+  #play-button1,
+  #stop-button2 {
+    background-color: #4CAF50;
+    border: none;
+    color: white;
+    padding: 12px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-right: 10px;
+    cursor: pointer;
+    border-radius: 8px;
+  }
+  #stop-button2{
+    background-color: red;
+    border: none;
+    color: white;
+    padding: 12px 24px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    font-size: 16px;
+    margin-right: 10px;
+    cursor: pointer;
+    border-radius: 8px;
+  }
+
+  #play-button1:hover,
+  #stop-button2:hover {
+    background-color: #3e8e41;
+  }
+  #stop-button2:hover {
+    background-color: #8e3e41;
+  }
+  
+  #menu-button:hover {
+    background-color: #555;
+  }
+  
+  #menu-list {
+    display: flex;
+    flex-direction: column;
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  }
+  
+  #menu-list li {
+    border-bottom: 1px solid #777;
+  }
+  
+  #menu-list a {
+    display: grid;
+    padding: 10px;
+    color: #fff;
+  }
+  
+  #menu-list a:hover {
+    background-color: #555;
+  }
+  
+  .submenu {
+    display: none;
+    list-style: none;
+    padding: 0;
+    margin: 0;
+  }
+  
+  .submenu li {
+    border: none;
+  }
+  
+  .submenu a {
+    padding: 10px 20px;
+    background-color: #555;
+  }
+  
+  .submenu a:hover {
+    background-color: #777;
+  }
+  
+  
+  /* Style the main content */
+  h1 {
+    font-size: 2em;
+  }
+  
+  main {
+    background-color: #fff;
+    margin: 10px;
+    box-shadow: 0 0 5px #ccc;
+  }
+  
+  main p {
+    font-size: 1.2em;
+  }
+  
+  button {
+    background-color: #333;
+    color: #fff;
+    border: none;
+    padding: 10px;
+    margin: 10px;
+    cursor: pointer;
+  }
+  
+  button:hover {
+    background-color: #555;
+  }
+  
