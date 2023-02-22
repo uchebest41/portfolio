@@ -12,7 +12,7 @@ function promptToViewMainPage() {
     }
   }
   function redirectToMainPage() {
-    window.location.href = 'main/index.html';
+    window.location.href = 'project.html';
   }
   function redirectToGamePage() {
     window.location.href = 'game.html';
