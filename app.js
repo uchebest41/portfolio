@@ -27,7 +27,7 @@ messageForm.addEventListener("submit", (event) => {
 });
 
 
-const imageSources = ['uche1.jpg', 'uche2.jpg', 'uche3.jpg', 'uche4.jpg'];
+const imageSources = ['work 1.jpeg', 'work2.jpg', 'work3.jpg', 'work2.jpg'];
 const imageContainer = document.getElementById('image-container');
 let currentIndex = 0;
 
