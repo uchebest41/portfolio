@@ -34,8 +34,8 @@ let currentIndex = 0;
 function displayNextImage() {
   const image = new Image();
   image.src = imageSources[currentIndex];
-  image.width = 100;
-  //image.height= 100; // Set the image width to 100 pixels
+  image.width = 10;
+  image.height= 6; // Set the image width to 100 pixels
   currentIndex = (currentIndex + 1) % imageSources.length;
   imageContainer.innerHTML = '';
   imageContainer.appendChild(image);
@@ -73,7 +73,11 @@ stopButton.addEventListener('click', () => {
 });
 
 // typing effect
-const text = "I am a professional with dynamic interests in web technologies, financial reporting, and business management looking for career opportunities in a growing organization where excellence, value-add and honesty are norms, and where exceptional performance is recognized and rewarded, looking forward to applying my finance knowledge in the world of Tech. (fintech)";
+const text = `As an accomplished and versatile professional with proficiency in web technologies, financial reporting, and business
+management, I am actively seeking employment opportunities within a forward-thinking organization that values
+excellence, integrity, and value creation. I am committed to leveraging my finance expertise to contribute to the evolving
+landscape of financial technology (fintech) and am motivated by the prospect of working in an environment that
+recognizes and rewards outstanding performance`
 let index = 0;
 
 function type() {
